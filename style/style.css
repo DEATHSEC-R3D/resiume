@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family: geobpg;
+    src: url(bpg_nino_mtavruli_bold.ttf);
+}
+
+
+body,html {
+	margin: 0px;
+	padding: 0px;
+}
+*::selection {
+	background: #657481;
+	color: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+    background: url(https://avatars.mds.yandex.net/get-pdb/911433/0a615346-f041-410b-a5de-7853515e4896/s1200) fixed no-repeat #657481;
+    color: #657481;
+    background-size: cover;
+    font-family: arial, geobpg;
+}
+header {
+	font-size: 32px;
+	height: 20vh;
+	color: #657481;
+	overflow: hidden;
+}
+section {
+	background: #fff;
+	max-width: 1300px;
+	margin: auto;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+section:hover {
+	box-shadow: 20px 20px 20px 6px #657481;
+	border-radius: 4px;
+}
+section h1 {
+	margin: 60px;
+}
+.addline:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 2px;
+    height: 70px;
+    margin-left: 13px;
+    margin-top: 60px;
+}
+section ul {
+	margin-left: 80px;
+	list-style: square;
+}
+img {
+	width: 100%;
+}
+footer {
+	font-size: 15px;
+	color: #fff;
+	overflow: hidden;
+	padding: 20px;
+}
+.ms-50 {
+	width: 50%;
+	float: left;
+	height: 690px;
+	overflow: hidden;
+}
+.ms-50:nth-child(2) {
+	font-size: 32px;
+	padding: 170px 50px;
+    text-align: center;
+}
+.fh-wrap {
+    padding: 70px;
+}
+.fright {
+	float: right;
+}
+.circle_know {
+    background: #648caf;
+    width: 15px;
+    height: 15px;
+    margin: 0px 3px;
+    display: inline-block;
+    border: 1px solid #000;
+}
+.circle_know_null {
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    margin: 0px 3px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid #000;
+}
+.bar_procentage_know {
+    background: #fff;
+    border: 1px solid #000;
+    position: relative;
+    width: 140px;
+    overflow: hidden;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+    margin: 5px 0px;
+    text-align: right;
+}
+.bar {
+    position: absolute;
+    height: 20px;
+    content: "";
+    background: #648caf;
+    color: #fff;
+}
+li {
+	font-weight: bold;
+}
+.work {
+	display: block;
+    margin: 30px;
+    max-width: 85%;
+    margin: auto;
+}
+.work img {
+	display: inline-block;
+	width: 33%;
+    height: 310px;
+}
